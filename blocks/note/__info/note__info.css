@@ -6,3 +6,10 @@
     padding-left: 50px;
     padding-right: 50px;
 }
+
+@media screen and (max-width: 768px) {
+    .note__info {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+}

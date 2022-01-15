@@ -3,3 +3,9 @@
   line-height: 38px;
   color: white;   
 }
+
+@media screen and (min-width: 320px) and (max-width: 650px) {
+  .logo {
+    padding-bottom: 25px;
+  }
+}
