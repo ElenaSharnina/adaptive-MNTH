@@ -2,6 +2,7 @@
   display: grid;
   max-width: 1462px;
   grid-template-columns: 60%  40%;
+  grid-template-rows: 1fr;
 }
 
 .note:nth-of-type(2n) {
