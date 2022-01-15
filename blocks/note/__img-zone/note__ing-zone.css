@@ -1,0 +1,7 @@
+.note__img-zone {
+  background-position:top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  box-shadow: -14px -14px 20px rgba(240,240,240, 0.05), 14px 14px 20px rgba(240,240,240, 0.05);
+}

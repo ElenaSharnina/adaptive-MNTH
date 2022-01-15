@@ -1,0 +1,4 @@
+.header__acc {
+    display: flex;
+    flex-direction: row;
+}

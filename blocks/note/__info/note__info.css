@@ -1,0 +1,8 @@
+.note__info {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    max-width: 896px;
+    padding-left: 50px;
+    padding-right: 50px;
+}

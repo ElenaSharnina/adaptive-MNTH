@@ -1,0 +1,9 @@
+.note {
+  display: grid;
+  max-width: 1462px;
+  grid-template-columns: 60%  40%;
+}
+
+.note:nth-of-type(2n) {
+  grid-template-columns: 40% 60%;
+}
