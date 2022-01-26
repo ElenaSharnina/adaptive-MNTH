@@ -1,0 +1,11 @@
+.modal {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+ 
+  background-color: rgba(0,0,0, 0.5);
+  /*visibility: hidden;*/
+  transition: all 0.7s ease;
+  opacity: 0;
+}

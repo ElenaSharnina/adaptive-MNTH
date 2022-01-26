@@ -1,0 +1,8 @@
+.banner__tegs {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 0;
+}
