@@ -27,7 +27,14 @@
       </div>
     </header>
     <main class="main">
-      <section class="profile">
+      <nav class="anchor">
+        <a href="#profile" class="anchor__teg">Profile</a>
+        <a href="#1" class="anchor__teg">#1 Step</a>
+        <a href="#2" class="anchor__teg">#2 Step</a>
+        <a href="#3" class="anchor__teg">#3 Step</a>
+        <a href="#gallery" class="anchor__teg">Gallery</a>
+      </nav>
+      <section class="profile" id="profile">
         <div class="profile__section">
           <div class="profile__avatar">
             <img class="profile__foto" src="./images/Games_Heavy_Rain_PS3_021083_.jpg" alt="Фото профиля">
@@ -45,8 +52,8 @@
           <div class="profile__banner">
             <ul class="banner__tegs">
               <li class="banner__teg"><span class="banner__span"> &rarr; </span> Create your own blog</li>
-              <li class="banner__teg"><span class="banner__span">&rarr; </span>Upload your photos to the gallery</li>
-              <li class="banner__teg"><span class="banner__span">&rarr; </span>Fill your life with adventures</li>
+              <li class="banner__teg"><span class="banner__span">&rarr; </span> Upload your photos to the gallery</li>
+              <li class="banner__teg"><span class="banner__span">&rarr; </span> Fill your life with adventures</li>
             </ul>
             <img class="banner__image" src="./images/логотип горы.jfif" alt="mountain">
           </div>
@@ -65,8 +72,8 @@
                 <span class="modal__error userjob-error"></span>
               </label>
               <label class="modal__label">
-                <input type="url" class="modal__field modal__field_type_card-link" value="" name="cardlink"
-                  placeholder="Specify the link to the photo" required id="cardlink">
+                <input type="url" class="modal__field modal__field_type_foto-link" value="" name="fotolink"
+                  placeholder="Specify the link to the photo" required id="fotolink">
                 <span class="modal__error cardlink-error"></span>
               </label>
               <button type="submit" class="modal__button modal__button_place_profile">Save</button>
@@ -82,7 +89,7 @@
 
       </section>
       <section class="notes">
-        <div class="note">
+        <div class="note" id="1">
           <div class="note__info">
             <div class="note__number">#01</div>
             <h3 class="note__subtitle">___GET Started</h3>
@@ -102,7 +109,7 @@
             <img src="./images/1341.jpg" class="note__image">
 
           </div>
-          <div class="note__info">
+          <div class="note__info" id="2">
             <div class="note__number">#02</div>
             <h3 class="note__subtitle">___HIKING ESSENTIALS</h3>
             <h2 class="note__title">Picking the right Hiking Gear!</h2>
@@ -115,7 +122,7 @@
 
         </div>
         <div class="note">
-          <div class="note__info">
+          <div class="note__info" id="3">
             <div class="note__number">#03</div>
             <h3 class="note__subtitle">___WHERE YOU GO IS THE KEY</h3>
             <h2 class="note__title">Understand Your Map & Timing</h2>

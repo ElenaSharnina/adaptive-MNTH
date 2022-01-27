@@ -1,9 +1,10 @@
 .profile {
   display: flex;
-  margin: 30px auto 0 auto;
-  max-width: 1150px;
   justify-content: center;
   flex-direction: column;
+  margin-left: 80px;
+  margin-right: 110px;
+  margin-top: 40px;
 }
 @media screen and (max-width: 768px) {
   .profile {

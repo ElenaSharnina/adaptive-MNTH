@@ -2,11 +2,17 @@
 
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/page-js.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__acc/header__acc.css);
 @import url(../blocks/header/__acc/__logo/header__acc__logo.css);
+
+@import url(../blocks/anchor/anchor.css);
+@import url(../blocks/anchor/_hide/anchor_hide.css);
+@import url(../blocks/anchor/__teg/anchor__teg.css);
+
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__author/intro__author.css);
