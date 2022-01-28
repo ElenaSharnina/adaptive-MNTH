@@ -1,0 +1,12 @@
+.element__caption-zone {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 21px;
+  padding-right: 21px;
+  min-height: 20px;
+  background-color:  #242323;
+
+}

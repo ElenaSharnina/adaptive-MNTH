@@ -1,0 +1,5 @@
+.element_big-size {
+  display: flex;
+  flex-direction: column;
+  height: 440px;
+}
