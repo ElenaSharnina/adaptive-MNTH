@@ -1,8 +1,10 @@
 .gallery {
-    margin-right: 80px;
-    margin-left: 80px;
-    padding-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 140px;
     padding-bottom: 80px;
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 55% 45%;
+    max-width: 1462px;
+    position: relative;
   }

@@ -65,16 +65,24 @@
 @import url(../blocks/modal/__error/modal__error.css);
 @import url(../blocks/modal/__error/_visible/modal__error_visible.css);
 @import url(../blocks/modal/__container/_visibility/_hidden/container_visibility.css);
+@import url(../blocks/modal/_active/modal_active.css);
+@import url(../blocks/modal/__window/modal__window.css);
 
 @import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__add-button/gallery__add-button.css);
 
 @import url(../blocks/element/element.css);
 @import url(../blocks/element/_litle-size/element_litle-size.css);
 @import url(../blocks/element/_big-size/element_big-size.css);
 @import url(../blocks/element/__image/element__image.css);
+@import url(../blocks/element/__image/_type/_big-size/element__image_type_big-size.css);
 @import url(../blocks/element/__caption-zone/element__caption-zone.css);
 @import url(../blocks/element/__name/element__name.css);
+@import url(../blocks/element/__name/_type/_big-size/element__name_type_big-size.css);
 @import url(../blocks/element/__foto-zone/element__foto-zone.css);
+@import url(../blocks/element/__foto-zone/_type_big-size/element__foto-zone_type_big-size.css);
+@import url(../blocks/element/__description/element__description.css);
+@import url(../blocks/element/__description/_type/_big-size/element__description_type_big-size.css);
 
 @import url(../blocks/banner/__teg/banner__teg.css);
 @import url(../blocks/banner/__tegs/banner__tegs.css);

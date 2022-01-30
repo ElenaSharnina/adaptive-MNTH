@@ -1,6 +1,6 @@
 .element {
   border-radius: 8px;
-  width: 200px;
+  max-width: 180px;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
