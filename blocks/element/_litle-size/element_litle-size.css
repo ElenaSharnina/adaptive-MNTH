@@ -5,8 +5,7 @@
     row-gap: 10px;
     height: 600px;
     overflow-y: scroll;
-    scrollbar-color: black white;
-    scrollbar-width: 5px;
+    
   }
   @media screen and (max-width: 590px) {
     .element_litle-size {
@@ -20,3 +19,36 @@
       padding: 0 19px 0 19px;
     }
 }
+
+.element_litle-size::-webkit-scrollbar-button {
+  background-image:url('');
+  background-repeat:no-repeat;
+  width:6px;
+  height:0px
+  }
+  
+  .element_litle-size::-webkit-scrollbar-track {
+  background-color:#32312e;
+  box-shadow:0px 0px 3px #000 inset;
+  }
+  
+  .element_litle-size::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color:rgb(172, 164, 164);
+  box-shadow:0px 1px 1px #fff inset;
+  background-image:url('https://yraaa.ru/_pu/24/59610063.png');
+  background-position:center;
+  background-repeat:no-repeat;
+  }
+  
+  .element_litle-size::-webkit-resizer{
+  background-image:url('');
+  background-repeat:no-repeat;
+  width:7px;
+  height:0px
+  }
+  
+  .element_litle-size::-webkit-scrollbar{
+  width: 5px;
+  }
