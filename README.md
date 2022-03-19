@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# Проект: Куда я поеду
+# Проект: MNTN
 
 ## Обзор
 * О проекте
@@ -23,8 +22,3 @@ PET-проект.
 * HTML, CSS, JavaScript
 
 [Здесь можно посмотреть, как выглядит проект](https://elenasharnina.github.io/adaptive-MNTH/)
-
-
-=======
-# adaptive-MNTH
->>>>>>> 72b65d9c5722eb109eb724160f0114ccd087f177
