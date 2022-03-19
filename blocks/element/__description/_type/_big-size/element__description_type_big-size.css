@@ -5,3 +5,9 @@
   line-height: 30px;
   font-weight: normal;
 }
+@media screen and (min-width: 320px) and (max-width: 650px) {
+  .element__description_type_big-size {
+    font-size: 17px;
+    line-height: 22px;
+  }
+}

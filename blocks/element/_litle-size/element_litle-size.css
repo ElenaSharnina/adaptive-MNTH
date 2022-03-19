@@ -9,14 +9,14 @@
   }
   @media screen and (max-width: 590px) {
     .element_litle-size {
-      padding: 0 19px 0 19px;
-      grid-template-columns: repeat(1, 1fr); 
+      padding: 0 7px 0 7px;
+      grid-template-columns: repeat(1, 100%); 
     }
   }
   @media screen and (min-width: 591px) and (max-width: 980px) {
     .element_litle-size {
-      grid-template-columns: repeat(2, 1fr);
-      padding: 0 19px 0 19px;
+      grid-template-columns: repeat(2, 47%);
+      padding: 0 10px 0 10px;
     }
 }
 

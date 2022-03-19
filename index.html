@@ -14,12 +14,14 @@
 <body>
   <div class="page">
     <header class="header">
-      <div class="logo ">MNTH</div>
-      <ul class="header__menu">
-        <li class="header__link">Equipment</li>
-        <li class="header__link">About us</li>
-        <li class="header__link">Blog</li>
-      </ul>
+      <div class="header__nav">
+        <div class="logo ">MNTH</div>
+        <ul class="header__menu">
+          <li class="header__link">Equipment</li>
+          <li class="header__link">About us</li>
+          <li class="header__link">Blog</li>
+        </ul>
+      </div>
       <div class="header__acc">
         <img class="header__acc__logo"
           src="./images/user-login-man-human-body-mobile-person-png-icon-free-download-165638.png">
@@ -72,9 +74,9 @@
                 <span class="modal__error userjob-error"></span>
               </label>
               <label class="modal__label">
-                <input type="url" class="modal__field modal__field_type_foto-link" value="" name="fotolink"
-                  placeholder="Specify the link to the photo" required id="fotolink">
-                <span class="modal__error cardlink-error"></span>
+                <input type="url" class="modal__field modal__field_type_avatar" value="" name="avatar"
+                  placeholder="Specify the link to the photo" required id="avatar">
+                <span class="modal__error avatar-error"></span>
               </label>
               <button type="submit" class="modal__button modal__button_place_profile">Save</button>
             </form>
@@ -183,7 +185,7 @@
               <span class="modal__error cardlink-error"></span>
             </label>
             <input type="textarea" class="modal__field modal__field_type_card-description" value=""
-              name="carddescription" placeholder="Write a description" required id="cardname" minlength="2"
+              name="carddescription" placeholder="Write a description" required id="carddescription" minlength="2"
               maxlength="30">
             <span class="modal__error carddescription-error"></span>
             </label>
@@ -224,7 +226,7 @@
       </div>
     </footer>
   </div>
-  <script src="./scripts/index.js"></script>
+  <script src="./scripts/index.js" type="module"></script>
 
 </body>
 
